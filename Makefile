@@ -1,5 +1,6 @@
 start:
 	poetry run brain-games
+	poetry run brain-even
 install:
 	poetry install
 	poetry build

@@ -10,7 +10,7 @@ def main():
     def game_step():
         number_in_question = randint(1, 999)
         print(f'Question: {number_in_question} Your answer?')
-        answer = input()
+        answer = input() #prompt.string 
     
         if number_in_question % 2 == 0 and answer == 'yes':
             print('Correct')
